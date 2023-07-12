@@ -62,7 +62,7 @@ def run_checks(emails, use_proxy, filename):
             else:
                 time.sleep(60)
 
-use_proxy = input("Voulez-vous utiliser une liste de proxy ? (O/N) ")
+use_proxy = input("Voulez-vous utiliser une liste de proxy http/s ? (O/N) ")
 filename = None
 if use_proxy.lower() == "o":
     use_proxy = True
